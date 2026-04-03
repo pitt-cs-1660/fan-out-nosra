@@ -39,6 +39,7 @@ def lambda_handler(event, context):
     print("=== metadata extractor invoked ===")
 
     # todo: loop through event['Records']
+    
     # todo: for each record, get the SNS message string from record['Sns']['Message']
     # todo: parse the SNS message string as JSON to get the S3 event
     # todo: loop through the S3 event's 'Records'
