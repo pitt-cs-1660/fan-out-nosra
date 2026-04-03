@@ -80,6 +80,6 @@ def lambda_handler(event, context):
             )
 
     #       hint: s3.put_object(Bucket=bucket, Key=f"processed/metadata/{filename}.json",
-    #             Body=json.dumps(metadata), ContentType='application/json')
+    #             Body=json.dumps(metadata), ContentType='application/json'))
 
     return {'statusCode': 200, 'body': 'metadata extracted'}
